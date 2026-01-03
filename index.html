@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DCHK-VIEW</title>
+
+<style>
+body{
+  margin:0;
+  font-family: system-ui, sans-serif;
+  background:#f0f2f5;
+}
+
+.wrapper{
+  max-width:420px;
+  margin:auto;
+  padding:10px;
+}
+
+.card{
+  width:100%;
+  border-radius:16px;
+  overflow:hidden;
+  margin-bottom:14px;
+  box-shadow:0 4px 10px rgba(0,0,0,0.12);
+}
+
+.card img{
+  width:100%;
+  display:block;
+}
+
+.clickable{
+  cursor:pointer;
+  transition:transform 0.1s;
+}
+.clickable:active{
+  transform:scale(0.98);
+}
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+  <!-- 上部バナー -->
+  <div class="card">
+   <img src="https://drive.google.com/thumbnail?id=1_9t_wkkgMm-J48OaM5oNYomBuPgaQ_qC&sz=w2000">
+
+  </div>
+
+  <!-- 準備担当入口 -->
+  <a class="card clickable" href="PREP_VIEW_URL">
+  <img src="https://drive.google.com/thumbnail?id=1FLYiPCe380ZX_L2YRXpdxjd_Dv_2yEiI&sz=w2000">
+  </a>
+
+  <!-- 出荷担当入口 -->
+  <a class="card clickable" href="SHIP_VIEW_URL">
+   <img src="https://drive.google.com/thumbnail?id=1KYbxmlBUiahHkk0HnnQsAVdOnEZRpagM&sz=w2000">
+
+  </a>
+
+</div>
+
+</body>
+</html>
